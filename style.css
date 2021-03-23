@@ -50,3 +50,10 @@ margin: 5px;
 #confirmacionPassword{
 display: none;
 }
+
+.direccion {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
