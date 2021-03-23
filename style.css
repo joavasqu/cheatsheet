@@ -1,9 +1,18 @@
 
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    width: 200px;
+    text-align: left;
+    padding: 14px 25px;
+}
+
 a:link, a:visited {
 background-color:lightslategray;
 color: white;
-padding: 14px 25px;
-text-align: center;
 text-decoration: none;
 display: inline-block;
 border-radius: 2px;
@@ -19,6 +28,7 @@ background-color: rgba(3, 33, 66, 0.8);
 color: white;
 text-align: center;
 padding: 20px 30px;
+
 
 }
 
@@ -40,11 +50,14 @@ text-align: center;
 height: 30px;
 padding: 10px 0px;
 margin: 5px;
+border-radius: 5px;
 }
 
 .links {
-    align-items: center;
-    text-align: center;
+    
+    border: 1px solid black;
+    margin: 10px auto;
+    border-radius: 1px;
 }
 
 #confirmacionPassword{
