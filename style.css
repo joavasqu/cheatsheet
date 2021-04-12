@@ -8,6 +8,10 @@ body {
     margin: auto;
 }
 
+li {
+    padding: 0.2em;
+}
+
 a {
     width: 200px;
     text-align: left;
@@ -32,8 +36,6 @@ background-color: rgba(3, 33, 66, 0.8);
 color: white;
 text-align: center;
 padding: 20px 30px;
-
-
 }
 
 h1, p, button, a {
@@ -57,8 +59,7 @@ margin: 5px;
 border-radius: 5px;
 }
 
-.links {
-    
+.links {  
     border: 1px solid black;
     margin: 10px auto;
     border-radius: 1px;
@@ -66,6 +67,12 @@ border-radius: 5px;
 
 #confirmacionPassword{
 display: none;
+
+}
+
+.datos {
+    align-items: flex-start;
+    display: flex;
 }
 
 .direccion {
@@ -73,8 +80,11 @@ display: none;
     border-radius: 5px;
     padding: 10px;
     width: 30%;
+    margin: 5px;
+    display: inline-block;
+    height: 10em;
 }
 
-.direccion p{
+.direccion p {
     font-family: 'Courier New', Courier, monospace;
 }
