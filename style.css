@@ -100,6 +100,37 @@ display: none;
     
 }
 
+.listagrid {
+    display: grid;
+    grid-template: repeat(13, auto) / repeat(6, 1fr);
+    grid-gap: 0.2em;
+    grid-gap: 0.5em;
+}
+
+.lista {
+    grid-column: 1/span 5;
+    background-color: rgb(124, 50, 0);
+    color: ghostwhite;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    
+
+}
+
+#fullstack {
+    grid-area: 1 / 6 / 14 / 7;
+    background-color: rgb(51, 38, 82);
+    color: white;
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 2em;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .organizacion {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
