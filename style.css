@@ -88,3 +88,54 @@ display: none;
 .direccion p {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.area {
+    background-color: rgb(51, 38, 82);
+    color: white;
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0.5em;
+    
+}
+
+.organizacion {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 0.5em;
+}
+
+#lateral {
+    grid-area: 1 / 5 / 6 / 6;
+    background-color: rgb(124, 50, 0);
+    color: ghostwhite;
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 2em;
+    padding: 0 0.2em;
+    margin: 0.2em 0.5em;
+}
+
+#uno {
+    grid-area: 1 / 1 / 2 / 5;
+
+}
+
+#dos {
+    grid-area: 2 / 1 / 3 / 5 ;
+}
+
+#tres {
+    grid-area: 3 / 1 / 4 / 5;
+}
+
+#cuatro {
+    grid-area: 4 / 1 / 5 / 5;
+}
+
+#cinco {
+    grid-area: 5 / 1 / 6 / 5;
+}
